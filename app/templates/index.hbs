@@ -1,1 +1,4 @@
-{{outlet}}
+{{#each model as |post|}}
+  {{post.title}}, {{post.type}}
+  <br>
+{{/each}}
